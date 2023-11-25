@@ -65,7 +65,7 @@ MVC 패턴은 지금까지 학습한 것처럼 하나의 서블릿이나, JSP로
 
 
 
--%>
+--%>
 <%
     MemberRepository memberRepository = MemberRepository.getInstance();
     List<Member> members = memberRepository.findAll();
